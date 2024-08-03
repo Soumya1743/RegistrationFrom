@@ -1,0 +1,70 @@
+.body{
+    background: linear-gradient(to right, #dcf1ff, #f7e3ff);
+}
+.form{
+    margin-top: 5%;
+    margin-left: 30%;
+    background-color:rgb(233, 255, 255);
+    box-shadow: 0px 0px 40px rgb(7, 7, 7);
+    border-radius: 10px;
+    width: 40%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.heading{
+    text-align: center;
+    color: #31a284;
+    font-size: 250%;
+}
+.data{
+    height: 60px;
+    font-size: 18px;
+    padding-bottom: 3%;
+}
+#data{
+    margin-top: 1%;
+}
+#button{
+    margin-top: 2%;
+    margin-left: 43%;
+    padding: 1.2% 1.5% 1.2% 1.5%;
+    background-color:black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#firstname, #lastname, #email, #dob, #mobile, #password{
+    height: 30px;
+    width: 97%;
+    border: 0.2px solid black;
+    border-radius: 6px;
+}
+.div3{
+    display: inline;
+    width: 585px;
+}
+.div2{
+    display: inline;
+}
+#show{
+    margin-top: 1%;
+}
+#mobile{
+    outline: 0;
+}
+#mobile:valid:hover {
+    box-shadow: 0px 0px 10px green;
+}
+#mobile:invalid:hover {
+    box-shadow: 0px 0px 10px red;
+}
+.required::after{
+    content: "*";
+    color: red;
+    font-size: 20px;
+}
+.gender{
+    margin-left: 5%;
+}
